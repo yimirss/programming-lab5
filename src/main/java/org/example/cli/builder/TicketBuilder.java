@@ -102,7 +102,7 @@ public class TicketBuilder {
         for (FieldSpec field : fieldSpecs) {
             while (true) {
                 try {
-                    System.out.print(field.inputMessage());
+                    System.out.println(field.inputMessage());
                     String input = scanner.nextLine();
 
                     if (input.isEmpty() && !field.isRequired()) {

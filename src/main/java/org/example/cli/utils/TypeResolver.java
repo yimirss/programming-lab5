@@ -18,7 +18,6 @@ public class TypeResolver {
             if (type.isEnum()) return (T) Enum.valueOf((Class<Enum>) type, input.toUpperCase());
 
         } catch(Exception e) {
-            System.out.println(e.toString());
             throw new IllegalArgumentException("Incompatible type");
         }
         throw new IllegalArgumentException("Unsupported type: " + type.getName());

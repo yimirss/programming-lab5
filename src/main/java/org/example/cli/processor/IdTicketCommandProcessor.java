@@ -32,7 +32,6 @@ public class IdTicketCommandProcessor extends CommandProcessor {
         String idRaw = rawArgsParts[0];
         Long id;
 
-        System.out.println("DEBUG: " + idRaw);
         try {
             id = TypeResolver.parseValue(idRaw.trim(), Long.class);
         } catch(IllegalArgumentException e) {
