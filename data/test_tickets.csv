@@ -1,0 +1,2 @@
+key,ticket_id,name,coord_x,coord_y,creation_date,price,discount,refundable,ticket_type,venue_id,venue_name,venue_capacity
+3,3293613585587156667,basic_ticket,0.000000,3.000000,2025-04-25T14:08:30.373668+03:00[Europe/Moscow],10,30,true,CHEAP,956189794113598383,basic_venue,10

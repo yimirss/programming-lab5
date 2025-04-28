@@ -1,0 +1,7 @@
+# Script to test recursion and infinite recursion
+
+execute_script test_recursion_a
+
+show
+
+execute_script test_recursion_c

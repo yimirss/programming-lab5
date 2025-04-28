@@ -1,0 +1,10 @@
+# Operations to test all prints
+
+clear
+insert 10 ticket.name=basic_ticket1 ticket.coordinates.x=500 ticket.coordinates.y=900 ticket.price=1000 ticket.discount=30 ticket.refundable=true ticket.type=cheap ticket.venue.name=basic_venue1 ticket.venue.capacity=200
+insert 11 ticket.name=basic_ticket2 ticket.coordinates.x=120 ticket.coordinates.y=10 ticket.price=7000 ticket.discount=10 ticket.refundable=true ticket.type=vip ticket.venue.name=basic_venue2 ticket.venue.capacity=10
+insert 12 ticket.name=basic_ticket3 ticket.coordinates.x=11 ticket.coordinates.y=3 ticket.price=234 ticket.discount=11 ticket.refundable=true ticket.type=cheap ticket.venue.name=basic_venue3 ticket.venue.capacity=10
+insert 13 ticket.name=basic_ticket4 ticket.coordinates.x=11 ticket.coordinates.y=3 ticket.price=234 ticket.discount=11 ticket.refundable=true ticket.type=cheap ticket.venue.name=basic_venue3 ticket.venue.capacity=401
+print_ascending
+print_descending_venue
+show

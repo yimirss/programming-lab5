@@ -1,0 +1,6 @@
+# Helper script for testing recursion
+
+insert 10 ticket.name=basic_ticket1 ticket.coordinates.x=500 ticket.coordinates.y=900 ticket.price=1000 ticket.discount=30 ticket.refundable=true ticket.type=cheap ticket.venue.name=basic_venue1 ticket.venue.capacity=200
+insert 11 ticket.name=basic_ticket2 ticket.coordinates.x=120 ticket.coordinates.y=10 ticket.price=7000 ticket.discount=10 ticket.refundable=true ticket.type=vip ticket.venue.name=basic_venue2 ticket.venue.capacity=10
+
+execute_script test_recursion_b

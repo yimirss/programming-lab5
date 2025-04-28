@@ -1,0 +1,5 @@
+# Script to test insert and update operations
+
+insert 4 ticket.name=basic_ticket ticket.coordinates.x=0 ticket.coordinates.y=3 ticket.price=10 ticket.discount=30 ticket.refundable=true ticket.type=cheap ticket.venue.name=basic_venue ticket.venue.capacity=10
+update 3293613585587156667 ticket.name=basic_ticket ticket.coordinates.x=0 ticket.coordinates.y=3 ticket.price=1 ticket.discount=100 ticket.refundable=false ticket.type=cheap ticket.venue.name=basic_venue ticket.venue.capacity=100
+show
